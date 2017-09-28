@@ -27,7 +27,7 @@ x:0,
 y:0,
 width:1000,
 height:1000,
-color:'#124185'
+color:'#888888'
 }
 
 function createBlock(x,y,width,height,speed,color,shiny){
@@ -225,5 +225,3 @@ ctx.fillText("Score: "+Math.floor(score), 5,25);
 
 setInterval(update,16.66);
 setInterval(genPipe,1000);
-
-
