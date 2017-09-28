@@ -225,3 +225,4 @@ ctx.fillText("Score: "+Math.floor(score), 5,25);
 
 setInterval(update,16.66);
 setInterval(genPipe,1000);
+
