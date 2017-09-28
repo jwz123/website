@@ -27,7 +27,7 @@ x:0,
 y:0,
 width:1000,
 height:1000,
-color:'#000000'
+color:'#888888'
 }
 
 function createBlock(x,y,width,height,speed,color,shiny){
