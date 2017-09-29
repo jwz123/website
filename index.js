@@ -1,5 +1,5 @@
 var ctx = document.getElementById("ctx").getContext("2d"); 
-ctx.font = '30px Arial';
+ctx.font = '50px Arial';
 var WIDTH = 1500;
 var HEIGHT = 1500;
 var alive = true;
