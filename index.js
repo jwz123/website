@@ -1,5 +1,5 @@
 var ctx = document.getElementById("ctx").getContext("2d"); 
-ctx.font = '50px Arial';
+ctx.font = '30px Arial';
 var WIDTH = 1500;
 var HEIGHT = 1500;
 var alive = true;
@@ -29,7 +29,7 @@ width:1000,
 height:1000,
 color:'#888888'
 }
-
+function createUpgrade(x,y,width,height,speed,color,
 function createBlock(x,y,width,height,speed,color,shiny){
 var block = {
 x:x,
